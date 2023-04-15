@@ -1,3 +1,6 @@
+
+@media (max-width: 500px)
+{
 body
 {
     border: none;
@@ -5,25 +8,16 @@ body
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background: linear-gradient(120deg , #153677 ,#4e085f);
+    background: linear-gradient(357deg , #153677 ,#4e085f);
     
-}
-
-
-.main-container
-{
-    width: 100%;
-
 }
 
  .container
 {
-     
-     max-width: 400px;
+       width: 350px;
      background-color: white;
-    padding: 10px 30px 70px;
-    
-     border: none; 
+     padding: 10px 30px 70px;
+    border: none; 
 }  
 
 .container h2 
@@ -46,6 +40,7 @@ body
     background-color: #edeef0;
     display: flex;
     justify-content: space-between;
+    width: 300px; 
     border-radius: 30px;
     padding-left:10px;
     margin-bottom: 20px;
@@ -56,6 +51,8 @@ body
 {
     font-family: poppins;
     flex: 1;
+    width: 100px;
+    display: inline;
     border: none;
     outline: none;
     background: transparent;
@@ -66,7 +63,6 @@ button
 {
     border: none;
     outline: none;
-    border: 30px;
     padding: 10px 30px;
     background-color: #ff5945;
     color: #fff;
@@ -134,15 +130,19 @@ span:hover
 {
     background-color: #edeef0;
 }
+}
 
-@media only screen and (min-width: 500px) {
-       body
+
+@media (min-width:501px)
+{
+body
 {
     border: none;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background: linear-gradient(120deg , #153677 ,#4e085f);
     
 }
 
@@ -151,7 +151,7 @@ span:hover
     width: 100%;
     padding: 10px;
     min-height: 100vh;
-    background: linear-gradient(120deg , #153677 ,#4e085f);
+   
 }
 
 .container
@@ -273,5 +273,5 @@ span:hover
     background-color: #edeef0;
 }
 
-
 }
+
