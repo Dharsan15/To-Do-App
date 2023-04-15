@@ -19,15 +19,15 @@ body
 .main-container
 {
     width: 100%;
-    /* padding: 10px; */
+   
     height: 100vh;
-/*     background: linear-gradient(120deg , #153677 ,#4e085f); */
+
 }
 
  .container
 {
      
-     max-width: 390px;
+     max-width: 400px;
      background-color: white;
     
     
